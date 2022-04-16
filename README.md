@@ -1,5 +1,8 @@
-# biosite
-A bio website for Basma
-This is the first webiste project for Web200 class at Bellevue University.
-This website is created using HTML and CSS.
-The bio websige contains information about Basma, her hobbies and interests.
+# Biosite
+<h1>WEB 200 Fundamentals of Web Development</h1>
+<h2>Contributors</h2>
+<ul>
+    <li>Robert Kumar</li>
+    <li>Jamal Damir</li>
+</ul>
+
