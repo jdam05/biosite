@@ -1,0 +1,206 @@
+body {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+   
+}
+header {
+    background-color: #FAEDCD;
+    height: 3rem;
+    width: 100%;
+    
+}
+#title {
+    font-weight: bolder;
+    font-family: "Ultra", sans-serif;
+    
+}
+.nav {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 35%;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    
+}
+.nav a:link {
+    text-decoration: none;
+    color: black;
+}
+.nav a:hover {
+    text-shadow: 6px 6px 6px #ccccca;
+    font-size: large;
+}
+.nav a:visited {
+    color: black;
+}
+
+main {
+    background-color: #FEFAE0;
+    height: auto;
+    min-height: 100vh;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+#landing-h1 {
+    text-align: center;
+    font-family: "Ultra", sans-serif;
+    text-shadow: 6px 6px 6px #ccccca;
+    
+}
+#cake-image {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    height: 250px;
+    width: 600px;
+    box-shadow: 6px 6px 6px #ccccca;
+    border-radius: 8px;
+}
+#center-div {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 90%;
+    padding-top: 100px;
+}
+#landing-paragraph {
+    padding: 50px 100px 40px 100px;
+    font-family: "Inter", sans-serif;
+    font-size: larger;
+    text-align: center;
+    line-height: 3rem;
+    
+}
+#dessert-image {
+    display: block;
+    height: 400px;
+    width: 800px;
+    box-shadow: 6px 6px 6px #ccccca;
+    border-radius: 10px 100px / 120px;
+}
+#landing-quote {
+    text-align: center;
+    font-family: "Inria Sans",
+    sans-serif;
+    padding-bottom: 30px;
+    margin-top: 300px;
+}
+#landing-quote span{
+    font-family: "Inria Sans", sans-serif;
+    font-size: 20px;
+    text-shadow: 6px 6px 6px #ccccca;
+}
+footer {
+    background-color: #FAEDCD;
+    height: 3rem;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+}
+.footer-nav {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 300px;
+    font-family: "Inria Sans",
+    sans-serif;
+    font-weight: bolder;
+    display: inline-block;
+}
+
+/* About Page */
+#about-center-div {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 80px;
+    margin: auto;
+    width: 90%;
+}
+#profile-image {
+    height: 600px;
+    width: 400px;
+    box-shadow: 6px 6px 6px #ccccca;
+    border-radius: 10px 100px / 120px;
+    margin: 100px 100px 100px 100px;
+    }
+#about-txt {
+    padding: 20px;
+    margin-top: 100px;
+    height:fit-content;
+    width: fit-content;
+    font-family: "Inter", sans-serif;
+    text-align: justify;
+    line-height: 2rem;
+    border-radius: 10px 100px / 120px;
+    background-color: #FAEDCD;
+   
+}
+#about-txt h1 {
+    text-align: center;
+}
+
+/* Hobby Page */
+#hobby-center-div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 80px;
+
+
+}
+.hobby-div1 {
+    display: flex;
+    flex-direction: row;
+    gap: 20%;
+    margin: auto;
+    width: 80%;
+    padding-right: 5%;
+}
+.hobby-div2 {
+    display: flex;
+    flex-direction: row;
+    gap: 15%;
+    margin: auto;
+    width: 80%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.hobby-div3 {
+    display: flex;
+    flex-direction: row;
+    gap: 15%;
+    margin: auto;
+    width: 80%;
+    padding-right: 5%;
+}
+#hobby-h1 {
+    text-align: center;
+    font-family: "Ultra",
+    sans-serif;
+    text-shadow: 6px 6px 6px #ccccca;
+}
+.hobby-images {
+    height: 450px;
+    width: 450px;
+    box-shadow: 6px 6px 6px #ccccca;
+    border-radius: 10px 100px / 120px;
+    margin-top: 5%;
+}
+.hobby-txt {
+    padding: 30px 50px 10px 50px;
+    margin-top: 8%;
+    margin-bottom: 5%;
+    height:fit-content;
+    width: fit-content;
+    min-height: 150px;
+    font-family: "Inter",
+    sans-serif;
+    text-align: justify;
+    line-height: 2rem;
+    border-radius: 50% 20% / 10% 40%;
+    background-color: #FAEDCD;
+}
+
