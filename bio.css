@@ -75,7 +75,7 @@ main {
     line-height: 3rem;
     
 }
-#dessert-image {
+.mid-images {
     display: block;
     height: 400px;
     width: 800px;
