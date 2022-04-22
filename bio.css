@@ -78,7 +78,7 @@ main {
 .mid-images {
     display: block;
     height: 400px;
-    width: 800px;
+    width: 400px;
     box-shadow: 6px 6px 6px #ccccca;
     border-radius: 10px 100px / 120px;
 }
