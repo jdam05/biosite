@@ -86,11 +86,7 @@ main {
     text-align:justify;
     line-height: 150%;
     order: 2;
-    background-color: #FAEDCD;
-    padding: 10px;
-    border-radius: 10px;
-    box-shadow: 6px 6px 30px 6px #ccccca;
-    
+    padding: 10px;    
 }
 #dessert-image {
     order: 1;
