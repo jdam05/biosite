@@ -74,6 +74,7 @@ main {
     max-width: 100%;
     height: auto;
     max-height: 360px;
+    justify-content: center;
 
     
 }
@@ -87,6 +88,8 @@ main {
     line-height: 150%;
     order: 2;
     padding: 10px;    
+    width: 100%;
+    width: 500px;
 }
 #dessert-image {
     order: 1;
@@ -263,6 +266,10 @@ footer {
         font-size: larger;
         text-align: justify;
         order: 1;
+        width: 100%;
+        max-width: 250px;
+        margin-right: auto;
+        margin-left: auto;
     }
 
     #dessert-image {
