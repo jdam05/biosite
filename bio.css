@@ -28,6 +28,8 @@ header {
     max-width: 100%;
     padding-right: 20px;
     padding-left: 20px;
+    margin-right: auto;
+    margin-left: auto;
     
 }
 .nav a:link {
@@ -234,6 +236,9 @@ footer {
     border-radius: 50% 20% / 10% 40%;
     background-color: #FAEDCD;
 }
+
+/* Responsiveness */
+
 @media (max-width: 1024px) {
     #dessert-image {
         margin: 50px 20px 50px 10px;
@@ -312,6 +317,72 @@ footer {
     header {
         height: 4rem;
     }
+
+    #about-center-div {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 80px;
+        margin: auto;
+        width: 90%;
+    }
+    #profile-image {
+        height: 300px;
+        width: 250px;
+        box-shadow: 6px 6px 6px #ccccca;
+        border-radius: 10px;
+        margin: 100px auto 0px auto;
+    }
+    #about-txt {
+      
+        border-radius: 10px;
+    }
+
+    .hobby-div1 {
+        display: flex;
+        flex-direction: column;
+        gap: 20%;
+        margin: auto;
+        width: 80%;
+        padding-right: 5%;
+    }
+    
+    .hobby-div2 {
+        display: flex;
+        flex-direction: column;
+        gap: 15%;
+        margin: auto;
+        width: 80%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    
+    .hobby-div3 {
+        display: flex;
+        flex-direction: column;
+        gap: 15%;
+        margin: auto;
+        width: 80%;
+        padding-right: 5%;
+    }
+    .hobby-images {
+        height: 300px;
+        width: 250px;
+        border-radius: 10px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .hobby-txt {
+        padding: 30px 50px 10px 50px;
+        border-radius: 10px;
+        margin-right: auto;
+        margin-left: auto;
+        order: 2;
+    }
+
+
+    
+
 
 }
 
