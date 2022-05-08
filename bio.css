@@ -56,6 +56,8 @@ main {
     text-align: center;
     font-family: "Ultra", sans-serif;
     text-shadow: 6px 6px 6px #ccccca;
+    padding-top: 50px;
+    padding-bottom: 50px;
     
 }
 #cake-image {
@@ -120,10 +122,28 @@ main {
     padding-bottom: 30px;
     margin-top: 300px;
 }
+#landing-quote a {
+    text-decoration: none;
+    font-style: italic;
+}
+#landing-quote a:hover {
+    text-decoration: underline;
+}
 #landing-quote span{
-    font-family: "Inria Sans", sans-serif;
+    
     font-size: 20px;
     text-shadow: 6px 6px 6px #ccccca;
+}
+#to-top {
+    text-decoration: none;
+    font-family: "Inria Sans",
+    sans-serif;
+    font-weight: bold;
+    float: right;
+    padding-right: 20px;
+}
+#to-top:hover {
+    text-decoration: underline;
 }
 footer {
     background-color: #FAEDCD;
@@ -161,13 +181,13 @@ footer {
     margin: 100px 100px 100px 100px;
     }
 #about-txt {
-    padding: 20px;
+    padding: 50px;
     margin-top: 100px;
     height:fit-content;
     width: fit-content;
     font-family: "Inter", sans-serif;
     text-align: justify;
-    line-height: 2rem;
+    line-height: 150%;
     border-radius: 10px 100px / 120px;
     background-color: #FAEDCD;
    
@@ -223,7 +243,7 @@ footer {
     margin-top: 5%;
 }
 .hobby-txt {
-    padding: 30px 50px 10px 50px;
+    padding: 60px;
     margin-top: 8%;
     margin-bottom: 5%;
     height:fit-content;
@@ -232,7 +252,7 @@ footer {
     font-family: "Inter",
     sans-serif;
     text-align: justify;
-    line-height: 2rem;
+    line-height: 150%;
     border-radius: 50% 20% / 10% 40%;
     background-color: #FAEDCD;
 }
