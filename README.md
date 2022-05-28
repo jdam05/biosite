@@ -1,5 +1,5 @@
 # Biosite
-<h1>WEB 200 Fundamentals of Web Development</h1>
+# H1 WEB 200 Fundamentals of Web Development
 <h2>Contributors</h2>
 <ul>
     <li>Robert Kumar</li>
